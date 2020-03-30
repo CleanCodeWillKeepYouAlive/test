@@ -1,0 +1,26 @@
+2020-03-30 23:44:45,214 INFO com.userdemo.UserResult.UserResultApplicationTests [main] Starting UserResultApplicationTests on DESKTOP-QR39A3F with PID 8272 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-03-30 23:44:45,214 INFO com.userdemo.UserResult.UserResultApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-03-30 23:44:47,980 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 23:44:48,555 INFO com.userdemo.UserResult.UserResultApplicationTests [main] Started UserResultApplicationTests in 3.797 seconds (JVM running for 5.002)
+2020-03-30 23:44:49,349 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 23:46:06,701 INFO com.userdemo.UserResult.UserResultApplication [main] Starting UserResultApplication on DESKTOP-QR39A3F with PID 3216 (C:\Users\sg260\IdeaProjects\New\UserResult\target\classes started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-03-30 23:46:06,703 INFO com.userdemo.UserResult.UserResultApplication [main] No active profile set, falling back to default profiles: default
+2020-03-30 23:46:07,730 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9000 (http)
+2020-03-30 23:46:07,745 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-03-30 23:46:07,745 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-03-30 23:46:07,823 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-03-30 23:46:07,823 INFO org.springframework.web.context.ContextLoader [main] Root WebApplicationContext: initialization completed in 1085 ms
+2020-03-30 23:46:08,277 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 23:46:08,542 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9000 (http) with context path ''
+2020-03-30 23:46:08,558 INFO com.userdemo.UserResult.UserResultApplication [main] Started UserResultApplication in 2.201 seconds (JVM running for 2.511)
+2020-03-30 23:46:47,030 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 23:46:47,031 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9000-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-30 23:46:47,048 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9000-exec-1] Completed initialization in 16 ms
+2020-03-30 23:46:47,133 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-1] saveUser into storage User(user_id=2, level_id=3, result=22)
+2020-03-30 23:46:54,745 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-2] saveUser into storage User(user_id=1, level_id=1, result=55)
+2020-03-30 23:46:58,700 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-3] saveUser into storage User(user_id=1, level_id=2, result=8)
+2020-03-30 23:47:01,874 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-4] saveUser into storage User(user_id=1, level_id=3, result=15)
+2020-03-30 23:47:05,038 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-5] saveUser into storage User(user_id=2, level_id=3, result=22)
+2020-03-30 23:47:07,953 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-6] getAllById from cache
+2020-03-30 23:47:11,085 INFO com.userdemo.UserResult.service.UserServiceImpl [http-nio-9000-exec-8] getAllByLevel form cache
+2020-03-30 23:47:33,795 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
