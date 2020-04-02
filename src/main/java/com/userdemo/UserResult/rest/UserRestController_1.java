@@ -23,7 +23,7 @@ public class UserRestController_1 {
     UserServiceImpl userServiceImpl;
 
     @RequestMapping(value = "/setinfo", method = RequestMethod.PUT, produces = MediaType.APPLICATION_JSON_VALUE)
-    public synchronized ResponseEntity<User> saveUser(@RequestBody @Valid User user) {
+    public ResponseEntity<User> saveUser(@RequestBody @Valid User user) {
 
         if (user == null) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -34,7 +34,7 @@ public class UserRestController_1 {
     }
 
     @RequestMapping(value = "/userinfo/{user_id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public synchronized ResponseEntity<List<User>> getAllById(@PathVariable("user_id") @Valid Integer id) {
+    public ResponseEntity<List<User>> getAllById(@PathVariable("user_id") @Valid Integer id) {
         List<User> users = this.userServiceImpl.getAllById(id);
 
         if (users.isEmpty()) {
@@ -45,7 +45,7 @@ public class UserRestController_1 {
     }
 
     @RequestMapping(value = "/levelinfo/{level_id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public synchronized ResponseEntity<List<User>> getAllByLevel(@PathVariable("level_id") @Valid Integer level) {
+    public ResponseEntity<List<User>> getAllByLevel(@PathVariable("level_id") @Valid Integer level) {
         List<User> users = this.userServiceImpl.getAllByLevel(level);
 
         if (users.isEmpty()) {
