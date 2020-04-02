@@ -38,7 +38,6 @@ public class UserRestController_1 {
         List<User> users = this.userServiceImpl.getAllById(id);
 
         if (users.isEmpty()) {
-            System.out.println("User set is empty");
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
 

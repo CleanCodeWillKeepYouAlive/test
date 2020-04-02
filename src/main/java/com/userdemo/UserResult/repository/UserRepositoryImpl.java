@@ -11,6 +11,9 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
+import static java.util.Comparator.*;
+import static java.util.stream.Collectors.*;
+
 @Slf4j
 @Repository
 public class UserRepositoryImpl implements UserRepository {
@@ -25,17 +28,29 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public List<User> getAllById(Integer id) {
-        return concurrentHashSet.stream().sorted(Comparator.comparing(User::getResult).reversed())
-                .filter(user -> user.getUser_id() == id)
+        return concurrentHashSet
+                .stream()
+                .sorted(comparing(User::getId, reverseOrder())
+
+                        .thenComparing(User::getResult, reverseOrder())
+                        .thenComparing(User::getLevel, reverseOrder())
+                )
+                .filter(user -> user.getId().equals(id))
                 .limit(20)
-                .collect(Collectors.toList());
+                .collect(toList());
     }
 
     @Override
     public List<User> getAllByLevel(Integer level) {
-        return concurrentHashSet.stream().sorted(Comparator.comparing(User::getResult).reversed())
-                .filter(user -> user.getLevel_id() == level)
+        return concurrentHashSet
+                .stream()
+                .sorted(comparing(User::getLevel, reverseOrder())
+
+                                .thenComparing(User::getResult, reverseOrder())
+                                .thenComparing(User::getId, reverseOrder())
+                )
+                .filter(user -> user.getLevel().equals(level))
                 .limit(20)
-                .collect(Collectors.toList());
+                .collect(toList());
     }
 }

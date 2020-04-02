@@ -9,10 +9,10 @@ import lombok.NonNull;
 public class User {
 
     @NonNull
-    private Integer user_id;
+    private Integer id;
 
     @NonNull
-    private Integer level_id;
+    private Integer level;
 
     @NonNull
     private Integer result;
