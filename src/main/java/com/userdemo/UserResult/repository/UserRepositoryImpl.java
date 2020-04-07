@@ -2,24 +2,19 @@ package com.userdemo.UserResult.repository;
 
 import com.userdemo.UserResult.model.User;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-
-import java.util.*;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
-
-import static java.util.Comparator.*;
-import static java.util.stream.Collectors.*;
+import static java.util.Comparator.comparing;
+import static java.util.Comparator.reverseOrder;
+import static java.util.stream.Collectors.toList;
 
 @Slf4j
 @Repository
 public class UserRepositoryImpl implements UserRepository {
 
-    ConcurrentHashMap<User, Integer> certificationCosts = new ConcurrentHashMap<>();
-    Set<User> concurrentHashSet = certificationCosts.newKeySet();
+    private Set<User> concurrentHashSet = ConcurrentHashMap.newKeySet();
 
     @Override
     public void saveUser(User user) {
@@ -27,30 +22,42 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public List<User> getAllById(Integer id) {
-        return concurrentHashSet
-                .stream()
-                .sorted(comparing(User::getId, reverseOrder())
+    public final User getUser(User u) {
+       return concurrentHashSet.stream()
+               .filter(user -> user.equals(u))
+               .findFirst()
+               .orElse(null);
+    }
 
-                        .thenComparing(User::getResult, reverseOrder())
-                        .thenComparing(User::getLevel, reverseOrder())
-                )
-                .filter(user -> user.getId().equals(id))
-                .limit(20)
+    @Override
+    public final List<User> getAll() {
+        return concurrentHashSet.parallelStream()
                 .collect(toList());
     }
 
     @Override
-    public List<User> getAllByLevel(Integer level) {
+    public final List<User> getAllByLevel(Integer level) {
         return concurrentHashSet
-                .stream()
-                .sorted(comparing(User::getLevel, reverseOrder())
+                .parallelStream()
+                .sorted(comparing(User::getLevel_id, reverseOrder())
 
                                 .thenComparing(User::getResult, reverseOrder())
-                                .thenComparing(User::getId, reverseOrder())
+                                .thenComparing(User::getUser_id, reverseOrder())
                 )
-                .filter(user -> user.getLevel().equals(level))
-                .limit(20)
+                .filter(user -> user.getLevel_id().equals(level))
+                .collect(toList());
+    }
+
+    @Override
+    public final List<User> getAllById(Integer id) {
+        return concurrentHashSet
+                .parallelStream()
+                .sorted(comparing(User::getUser_id, reverseOrder())
+
+                        .thenComparing(User::getResult, reverseOrder())
+                        .thenComparing(User::getLevel_id, reverseOrder())
+                )
+                .filter(user -> user.getUser_id().equals(id))
                 .collect(toList());
     }
 }

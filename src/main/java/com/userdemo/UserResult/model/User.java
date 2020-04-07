@@ -5,14 +5,13 @@ import lombok.EqualsAndHashCode;
 import lombok.NonNull;
 
 @Data
-@EqualsAndHashCode
 public class User {
 
     @NonNull
-    private Integer id;
+    private Integer user_id;
 
     @NonNull
-    private Integer level;
+    private Integer level_id;
 
     @NonNull
     private Integer result;
