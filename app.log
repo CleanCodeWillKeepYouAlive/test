@@ -122,3 +122,20 @@
 2020-04-08 20:54:38,539 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
 2020-04-08 20:54:38,566 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
 2020-04-08 20:54:38,579 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 20:56:08,983 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4492 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 20:56:08,990 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 20:56:12,130 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 20:56:12,751 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 20:56:12,751 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 20:56:12,774 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 23 ms
+2020-04-08 20:56:12,801 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.63 seconds (JVM running for 6.675)
+2020-04-08 20:56:13,566 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:56:13,582 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 20:56:13,631 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:56:13,646 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 20:56:13,690 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 20:56:13,709 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:56:13,710 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 20:56:13,732 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 20:56:13,776 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 20:56:13,826 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'

@@ -52,7 +52,6 @@ public class UserRepositoryImpl implements UserRepository {
                         .thenComparing(User::getUser_id, reverseOrder())
                 )
                 .filter(user -> user.getLevel_id().equals(level))
-                .limit(20)
                 .collect(toList());
     }
 
@@ -66,7 +65,6 @@ public class UserRepositoryImpl implements UserRepository {
                         .thenComparing(User::getLevel_id, reverseOrder())
                 )
                 .filter(user -> user.getUser_id().equals(id))
-                .limit(20)
                 .collect(toList());
     }
 }
