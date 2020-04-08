@@ -1,7 +1,6 @@
 package com.userdemo.UserResult.model;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NonNull;
 
 @Data

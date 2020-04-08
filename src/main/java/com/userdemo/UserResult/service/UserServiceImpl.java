@@ -16,10 +16,10 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
     @Autowired
-     UserRepositoryImpl userRepositoryImpl;
+    private UserRepositoryImpl userRepositoryImpl;
 
     @Override
-    @CacheEvict(value="cache", allEntries=true)
+    @CacheEvict(value = "cache", allEntries = true)
     public synchronized void save(User user) {
         log.info("saveUser into storage {}", user);
         userRepositoryImpl.saveUser(user);
@@ -27,9 +27,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Cacheable(sync = true)
-    public List<User> getAllUsers() {
+    public synchronized List<User> getAllUserData(User user) {
         log.info("gets all users list from cache");
-        return userRepositoryImpl.getAll();
+        return userRepositoryImpl.getAllUserData(user);
     }
 
     @Override

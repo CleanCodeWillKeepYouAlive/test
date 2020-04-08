@@ -1,155 +1,107 @@
-2020-04-07 00:02:05,055 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 9572 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 00:02:05,118 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 00:02:08,343 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 00:02:08,984 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 00:02:08,984 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 00:02:08,999 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 15 ms
-2020-04-07 00:02:09,030 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.775 seconds (JVM running for 6.972)
-2020-04-07 00:02:09,858 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 00:02:09,968 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 08:37:05,135 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 1488 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 08:37:05,139 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 08:37:08,714 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 08:37:09,554 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 08:37:09,554 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 08:37:09,579 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 25 ms
-2020-04-07 08:37:09,610 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.417 seconds (JVM running for 8.626)
-2020-04-07 08:37:10,505 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 08:37:10,692 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 08:45:14,667 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 9792 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 08:45:14,670 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 08:45:18,116 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 08:45:18,805 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 08:45:18,813 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 08:45:18,835 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 22 ms
-2020-04-07 08:45:18,865 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.945 seconds (JVM running for 7.204)
-2020-04-07 08:45:19,552 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 08:45:19,667 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:30:30,458 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 9500 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:30:30,474 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:30:34,642 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:30:35,376 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:30:35,376 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:30:35,392 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
-2020-04-07 13:30:35,454 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.923 seconds (JVM running for 8.823)
-2020-04-07 13:30:36,376 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:30:36,392 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:30:36,501 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:31:57,091 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4464 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:31:57,091 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:32:00,771 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:32:01,662 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:32:01,662 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:32:01,693 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 31 ms
-2020-04-07 13:32:01,724 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.372 seconds (JVM running for 7.894)
-2020-04-07 13:32:02,474 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:32:02,490 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:32:02,553 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:33:21,569 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4676 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:33:21,569 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:33:24,937 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:33:25,609 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:33:25,609 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:33:25,624 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 15 ms
-2020-04-07 13:33:25,656 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.762 seconds (JVM running for 6.894)
-2020-04-07 13:33:26,359 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:33:26,375 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:33:26,468 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:33:26,515 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:37:25,963 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 9508 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:37:25,965 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:37:30,151 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:37:30,819 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:37:30,820 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:37:30,841 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 21 ms
-2020-04-07 13:37:30,871 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.727 seconds (JVM running for 7.819)
-2020-04-07 13:37:31,628 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:37:31,638 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:37:31,771 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:37:31,815 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:46:42,160 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 7200 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:46:42,171 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:46:45,372 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:46:45,997 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:46:45,997 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:46:46,013 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
-2020-04-07 13:46:46,044 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.461 seconds (JVM running for 6.565)
-2020-04-07 13:46:46,825 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:46:46,841 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:46:46,904 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:46:46,919 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:46:47,013 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:48:12,421 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 5632 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:48:12,421 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:48:16,645 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:48:17,801 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:48:17,801 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:48:17,817 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
-2020-04-07 13:48:17,848 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 6.318 seconds (JVM running for 8.707)
-2020-04-07 13:48:19,582 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:48:19,598 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=1, result=55)
-2020-04-07 13:48:19,645 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:48:19,676 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:48:19,817 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:50:04,411 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 7040 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:50:04,411 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:50:07,460 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:50:08,148 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:50:08,148 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:50:08,179 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 31 ms
-2020-04-07 13:50:08,210 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.476 seconds (JVM running for 6.582)
-2020-04-07 13:50:08,945 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:50:08,961 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
-2020-04-07 13:50:09,007 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:50:09,023 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:50:09,070 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:50:09,086 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:56:43,724 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4636 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:56:43,727 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:56:46,912 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:56:47,575 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:56:47,575 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:56:47,613 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 38 ms
-2020-04-07 13:56:47,644 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.488 seconds (JVM running for 6.623)
-2020-04-07 13:56:48,397 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:56:48,407 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
-2020-04-07 13:56:48,456 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:56:48,471 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:56:48,527 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:56:48,594 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:56:48,594 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
-2020-04-07 13:56:48,621 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:57:31,502 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 7868 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:57:31,512 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:57:35,475 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:57:36,396 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:57:36,397 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:57:36,440 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 43 ms
-2020-04-07 13:57:36,474 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.519 seconds (JVM running for 7.673)
-2020-04-07 13:57:37,211 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:57:37,220 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
-2020-04-07 13:57:37,272 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:57:37,289 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:57:37,339 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:57:37,352 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:57:37,352 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
-2020-04-07 13:57:37,365 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:57:37,409 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:57:37,428 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:59:21,397 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4780 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
-2020-04-07 13:59:21,405 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
-2020-04-07 13:59:24,991 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
-2020-04-07 13:59:25,918 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2020-04-07 13:59:25,919 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2020-04-07 13:59:25,936 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
-2020-04-07 13:59:25,961 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 5.198 seconds (JVM running for 7.303)
-2020-04-07 13:59:26,772 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:59:26,787 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
-2020-04-07 13:59:26,880 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:59:26,897 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:59:26,959 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:59:26,979 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
-2020-04-07 13:59:26,979 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
-2020-04-07 13:59:26,992 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
-2020-04-07 13:59:27,022 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
-2020-04-07 13:59:27,040 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:01:21,202 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 8948 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:01:21,264 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:01:24,382 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:01:25,023 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:01:25,023 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:01:25,054 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 31 ms
+2020-04-08 00:01:25,101 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.491 seconds (JVM running for 6.662)
+2020-04-08 00:01:25,838 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:01:25,931 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:01:25,947 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:01:26,025 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:13:53,871 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 7320 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:13:53,871 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:13:57,449 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:13:58,217 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:13:58,217 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:13:58,232 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 15 ms
+2020-04-08 00:13:58,264 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.991 seconds (JVM running for 7.299)
+2020-04-08 00:13:58,967 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:13:58,982 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
+2020-04-08 00:13:58,982 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 00:13:59,108 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:13:59,108 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
+2020-04-08 00:13:59,123 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:13:59,170 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:13:59,201 INFO com.userdemo.UserResult.service.UserServiceImpl [main] get exist user from cache
+2020-04-08 00:13:59,201 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 00:13:59,201 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:13:59,233 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:13:59,248 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:14:27,893 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 4064 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:14:27,893 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:14:31,319 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:14:31,973 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:14:31,973 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:14:32,004 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 31 ms
+2020-04-08 00:14:32,035 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.871 seconds (JVM running for 7.126)
+2020-04-08 00:14:32,754 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:14:32,769 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 00:14:32,816 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:14:32,832 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:14:32,879 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:14:32,894 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 00:14:32,894 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:14:32,926 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:14:32,926 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:15:13,875 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 1048 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:15:13,875 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:15:17,306 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:15:18,012 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:15:18,012 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:15:18,028 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
+2020-04-08 00:15:18,059 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.897 seconds (JVM running for 7.109)
+2020-04-08 00:15:18,809 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:15:18,887 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:15:18,918 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:15:18,997 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:16:18,571 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 876 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:16:18,571 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:16:21,949 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:16:22,652 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:16:22,652 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:16:22,683 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 31 ms
+2020-04-08 00:16:22,715 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.802 seconds (JVM running for 6.969)
+2020-04-08 00:16:23,496 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:16:23,512 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 00:16:23,558 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:16:23,574 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:16:23,621 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:16:23,637 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 00:16:23,668 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:16:23,699 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:16:23,715 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:20:04,523 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 6820 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 00:20:04,523 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 00:20:07,836 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 00:20:08,514 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 00:20:08,514 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 00:20:08,529 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 15 ms
+2020-04-08 00:20:08,561 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.668 seconds (JVM running for 6.803)
+2020-04-08 00:20:09,326 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:20:09,342 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 00:20:09,389 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 00:20:09,404 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:20:09,467 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:20:09,482 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 00:20:09,498 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 00:20:09,529 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 00:20:09,529 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-08 20:33:02,675 INFO com.userdemo.UserResult.UserResultCacheTest [main] Starting UserResultCacheTest on DESKTOP-QR39A3F with PID 3552 (started by Nameless in C:\Users\sg260\IdeaProjects\New\UserResult)
+2020-04-08 20:33:02,677 INFO com.userdemo.UserResult.UserResultCacheTest [main] No active profile set, falling back to default profiles: default
+2020-04-08 20:33:05,948 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-08 20:33:06,649 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2020-04-08 20:33:06,649 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2020-04-08 20:33:06,666 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 17 ms
+2020-04-08 20:33:06,696 INFO com.userdemo.UserResult.UserResultCacheTest [main] Started UserResultCacheTest in 4.837 seconds (JVM running for 7.63)
+2020-04-08 20:33:07,605 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:33:07,622 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=55)
+2020-04-08 20:33:07,676 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:33:07,694 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 20:33:07,746 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 20:33:07,772 INFO com.userdemo.UserResult.service.UserServiceImpl [main] gets all users list from cache
+2020-04-08 20:33:07,773 INFO com.userdemo.UserResult.service.UserServiceImpl [main] saveUser into storage User(user_id=1, level_id=3, result=60)
+2020-04-08 20:33:07,773 INFO com.userdemo.UserResult.rest.UserController [main] setup user with top result
+2020-04-08 20:33:07,791 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllById form cache
+2020-04-08 20:33:07,814 INFO com.userdemo.UserResult.service.UserServiceImpl [main] getAllByLevel from cache
+2020-04-08 20:33:07,830 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Shutting down ExecutorService 'applicationTaskExecutor'

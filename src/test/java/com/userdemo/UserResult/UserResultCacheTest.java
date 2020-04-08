@@ -1,23 +1,19 @@
 package com.userdemo.UserResult;
 
 import com.userdemo.UserResult.rest.UserController;
-import org.hamcrest.core.StringContains;
-import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.annotation.Order;
 import org.springframework.http.MediaType;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.hamcrest.core.StringContains.containsString;
-import static org.junit.jupiter.api.MethodOrderer.*;
+import static org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -36,8 +32,6 @@ public class UserResultCacheTest {
     private final String firstUser = "{\"user_id\":1,\"level_id\":3,\"result\":55}";
     private final String secondUser = "{\"user_id\":1,\"level_id\":3,\"result\":60}";
 
-
-
     @Test
     @org.junit.jupiter.api.Order(1)
     public void setFirstUser() throws Exception {
@@ -46,7 +40,7 @@ public class UserResultCacheTest {
                 .content(firstUser))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().string(
-                        "set new result"));
+                        "data processing"));
     }
 
     @Test
@@ -68,7 +62,7 @@ public class UserResultCacheTest {
                 .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().string(
-                        "[" + firstUser + "]" ));
+                        "[" + firstUser + "]"));
     }
 
     @Test
@@ -78,7 +72,7 @@ public class UserResultCacheTest {
                 .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().string(
-                        "[" + firstUser + "]" ));
+                        "[" + firstUser + "]"));
     }
 
     // SECOND PART
@@ -91,7 +85,7 @@ public class UserResultCacheTest {
                 .content(secondUser))
                 .andExpect(status().is2xxSuccessful())
                 .andExpect(content().string(
-                        "set new result"));
+                        "data processing"));
     }
 
     @Test

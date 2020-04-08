@@ -14,5 +14,5 @@ public interface UserRepository {
 
     List<User> getAllByLevel(Integer level);
 
-    List<User> getAll();
+    List<User> getAllUserData(User user);
 }
