@@ -39,9 +39,7 @@ public class UserController {
         }
 
         users.forEach(us -> {
-            if (user.getResult() > us.getResult()) {
-                this.userServiceImpl.save(user);
-            }
+            if (user.getResult() > us.getResult()) this.userServiceImpl.save(user);
         });
 
         return new ResponseEntity<>("data processing", HttpStatus.OK);
