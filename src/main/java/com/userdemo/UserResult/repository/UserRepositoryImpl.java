@@ -46,12 +46,9 @@ public class UserRepositoryImpl implements UserRepository {
     public List<User> getAllByLevel(Integer level) {
         return concurrentHashSet
                 .parallelStream()
-                .sorted(comparing(User::getLevel_id, reverseOrder())
-
-                        .thenComparing(User::getResult, reverseOrder())
-                        .thenComparing(User::getUser_id, reverseOrder())
-                )
                 .filter(user -> user.getLevel_id().equals(level))
+                .sorted(comparing(User::getUser_id, reverseOrder()))
+                .sorted(comparing(User::getResult, reverseOrder()))
                 .collect(toList());
     }
 
@@ -59,12 +56,9 @@ public class UserRepositoryImpl implements UserRepository {
     public List<User> getAllById(Integer id) {
         return concurrentHashSet
                 .parallelStream()
-                .sorted(comparing(User::getUser_id, reverseOrder())
-
-                        .thenComparing(User::getResult, reverseOrder())
-                        .thenComparing(User::getLevel_id, reverseOrder())
-                )
                 .filter(user -> user.getUser_id().equals(id))
+                .sorted(comparing(User::getLevel_id, reverseOrder()))
+                .sorted(comparing(User::getResult, reverseOrder()))
                 .collect(toList());
     }
 }
